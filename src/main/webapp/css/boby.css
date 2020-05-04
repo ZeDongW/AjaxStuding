@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*登陆界面样式*/
+#formID{
+	position: absolute;
+	border-collapse:collapse;
+	border: 1px solid #000;
+	text-align: center;
+	width:20%;
+	height:40%;
+	top: 30%;
+	left: 75%;
+}
+input{
+	border-color:#39F;
+	border-width:2px;
+}
+body{
+
+	background: url("../image/antiquity.jpeg") no-repeat;
+
+	height:100%;
+
+	width:100%;
+
+	overflow: hidden;
+	background-size:cover;
+
+}
+input,img {
+	vertical-align:middle;
+}
+.checkCode{
+	display: inline;
+	position:absolute;
+	top:50%;
+	left: 30%;
+}
+.result{
+	position: relative;
+	display: inline;
+	top: 50%;
+	left: 35%;
+}
+/* CSS Document */
+
