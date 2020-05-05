@@ -9,9 +9,12 @@
     <constant name="struts.i18n.encoding" value="UTF-8"/>
     <constant name="struts.custom.i18n.resources" value="msg"/>
     <constant name="struts.ui.theme" value="simple"/>
-    <package name="ajax" extends="struts-default" strict-method-invocation="false">
+    <package name="ajax" extends="json-default" strict-method-invocation="false" >
         <action name="checkCode" class="cn.zedonge.ajax.js.action.CheckCode" method="checkCode">
 
+        </action>
+        <action name="select_*" class="cn.zedonge.ajax.js.action.ProvinceCityArea" method="{1}">
+            <result name="success" type="json"/>
         </action>
     </package>
 </struts>
